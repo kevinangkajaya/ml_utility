@@ -5,6 +5,9 @@ The programs are embedded from Hugging Face. This project has:
 - Cat vs Dog: https://huggingface.co/spaces/kevinangkajaya/minima
 - Papaya vs Chaya: https://huggingface.co/spaces/kevinangkajaya/papaya_vs_chaya
 
+## Github Pages
+- Check the documentation on https://github.com/gregrickaby/nextjs-github-pages.
+
 ## Getting Started
 
 First, run the development server:
