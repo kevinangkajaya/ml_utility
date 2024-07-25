@@ -29,7 +29,7 @@ export default function MachineLearning() {
                 </TabPanel>
                 {mlData.map((mlDatum => (
                     <TabPanel key={mlDatum.value}>
-                        <MachineLearningContent />
+                        <MachineLearningContent urlPath={mlDatum.url} />
                     </TabPanel>
                 )))}
 

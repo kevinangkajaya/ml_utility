@@ -1,12 +1,25 @@
-### Machine Learning Various Utility
-Providing NextJS website to check images and giving the result of the image. For example, in the cat vs dog section, we can upload an image of either a cat or a dog, and the program will tell you whether it is a cat or a dog.
+## Machine Learning Various Utility
+Providing NextJS website to check images and giving the result of the image. For example, in the cat vs dog section, we can upload an image of either a cat or a dog, and the program will tell you whether it is a cat or a dog. Try it out on [here](https://kevinangkajaya.github.io/ml_utility/).
 
 The programs are embedded from Hugging Face. This project has:
 - Cat vs Dog: https://huggingface.co/spaces/kevinangkajaya/minima
 - Papaya vs Chaya: https://huggingface.co/spaces/kevinangkajaya/papaya_vs_chaya
 
 ## Github Pages
+- Check out this page [here](https://kevinangkajaya.github.io/ml_utility/).
 - Check the documentation on https://github.com/gregrickaby/nextjs-github-pages.
+
+## Localhost
+- Because of the basepath on the `next.config.mjs`, after running `npm run dev`, the default url will go to http://localhost:3000, but it will show not found error.
+- Instead, we shoud go to http://localhost:3000/ml_utility.
+- To run https service:
+    - Normally run the website with `npm run dev`.
+    - On a separate command prompt, run `local-ssl-proxy --source 3001 --target 3000`.
+    - Now you can go to https://localhost:3001/ml_utility.
+    - Note that you need to install mkcert for the self-signed certificates. Go to the github pages for more information.
+        - On Windows, store the binaries on `C:\Users\[Username]\mkcert`
+    - For a more advanced command using self-signed certificates `local-ssl-proxy --key ./localhost-key.pem --cert ./localhost.pem --source 3001 --target 3000`
+
 
 ## Getting Started
 
