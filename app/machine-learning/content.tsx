@@ -19,7 +19,7 @@ export default function MachineLearningContent({ website, embed }: Props) {
                 Open the content to the original website here: {link()}
             </div>
             <div>
-                <iframe style={{ height: "80vh", border: 0, minWidth: '80vw' }} src={embed}></iframe>
+                <iframe style={{ minHeight: "100vh", minWidth: '80vw' }} src={embed}></iframe>
             </div>
         </div>
     )
