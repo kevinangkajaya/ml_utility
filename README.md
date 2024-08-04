@@ -4,6 +4,9 @@ Providing NextJS website to check images and giving the result of the image. For
 The programs are embedded from Hugging Face. This project has:
 - Cat vs Dog: https://huggingface.co/spaces/kevinangkajaya/minima
 - Papaya vs Chaya: https://huggingface.co/spaces/kevinangkajaya/papaya_vs_chaya
+- Green vegetables: https://huggingface.co/spaces/kevinangkajaya/green-vegetables
+- Bananas: https://huggingface.co/spaces/kevinangkajaya/bananas
+- Root vegetables: https://huggingface.co/spaces/kevinangkajaya/root-vegetables
 
 ## Github Pages
 - Check out this page [here](https://kevinangkajaya.github.io/ml_utility/).
