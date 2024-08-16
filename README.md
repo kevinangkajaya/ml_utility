@@ -1,5 +1,5 @@
 ## Machine Learning Various Utility
-Providing NextJS website to check images and giving the result of the image. For example, in the cat vs dog section, we can upload an image of either a cat or a dog, and the program will tell you whether it is a cat or a dog. Try it out on [here](https://kevinangkajaya.github.io/ml_utility/).
+Providing NextJS website to check images and giving the result of the image. For example, in the cat vs dog section, we can upload an image of either a cat or a dog, and the program will tell you whether it is a cat or a dog. Try it out [here](https://kevinangkajaya.github.io/ml_utility/).
 
 The programs are embedded from Hugging Face. This project has:
 - Cat vs Dog: https://huggingface.co/spaces/kevinangkajaya/minima

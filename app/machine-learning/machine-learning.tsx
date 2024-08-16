@@ -1,6 +1,6 @@
 'use client'
 
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { Tab, Tabs, TabList } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import MachineLearningHome from './home';
 import { mlData } from './data';
@@ -24,14 +24,14 @@ export default function MachineLearning() {
 
                 </TabList>
 
-                <TabPanel>
+                <div hidden={tabIndex !== 0}>
                     <MachineLearningHome tabOnSelect={tabOnSelect} />
-                </TabPanel>
-                {mlData.map((mlDatum => (
-                    <TabPanel key={mlDatum.value}>
+                </div>
+                {mlData.map(((mlDatum, index) => (
+                    <div key={mlDatum.value} hidden={tabIndex !== index + 1}>
                         <MachineLearningContent website={mlDatum.website}
                             embed={mlDatum.embed} />
-                    </TabPanel>
+                    </div>
                 )))}
 
             </Tabs>

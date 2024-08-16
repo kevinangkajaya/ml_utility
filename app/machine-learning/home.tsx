@@ -13,7 +13,7 @@ export default function MachineLearningHome({ tabOnSelect }: Props) {
     tabOnSelect(index + 1)
   }
   return (
-    <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+    <div style={{ minWidth: '95vw' }} className="mb-32 grid text-center lg:mb-0 lg:w-full lg:grid-cols-4 lg:text-left">
       {mlData.map((mlDatum, index) => (
         <a key={mlDatum.value}
           onClick={(e: React.MouseEvent<HTMLAnchorElement>) => boxOnClick(e, index)}
