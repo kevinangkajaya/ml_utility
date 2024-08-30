@@ -32,7 +32,7 @@ const mlData: Array<mlDataType> = [
         value: "bananas",
         label: "Bananas",
         desc: "Check what kind of banana is your image",
-        website: "hhttps://huggingface.co/spaces/kevinangkajaya/bananas",
+        website: "https://huggingface.co/spaces/kevinangkajaya/bananas",
         embed: "https://kevinangkajaya-bananas.hf.space",
     },
     {
